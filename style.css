@@ -1,0 +1,74 @@
+body { display: flex;
+  flex-direction: column;
+ background: #2c1a4785;
+background: -moz-linear-gradient(top, #1e143e 0%, #455496 50%, #C8B4DB 100%);
+background: -webkit-linear-gradient(top, #1e143e 0%, #455496 50%, #C8B4DB 100%);
+background: linear-gradient(to bottom, #1e143e 0%, #455496 50%, #C8B4DB 100%);
+  background-color: #CCD4FF;
+  color: wheat;
+}
+#title {text-align: center;
+  color: rgb(180, 178, 250);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#description {text-align: center;
+  color:rgba(245, 222, 179, 0.787);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 20px;
+}
+div {width: 100%;
+  margin: 3.125rem auto 0 auto;}
+
+
+#survey-form {
+   margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+  border-radius: 5px;
+  display:flex; flex-direction: column ;
+  margin:auto;
+  max-width:700px;
+  padding: 45px;
+  background-color: #4c32858e;
+  text-align:left;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+option:first {
+    color: #999;
+}
+
+select { font-family: 'Poppins', sans-serif;
+  display:block; 
+  margin-top: 10px;
+}
+
+#name , #email, #number {
+  height: 27px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+#name-label , #email-label, #number-label {
+   width: 300px;
+}
+
+
+ 
+#submit{
+  display:block;
+  width:100%;
+  margin:auto;
+  margin-top: 20px;
+  background-color:#e394d1a7;
+  font-family:'Poppins', sans-serif;
+  font-size:20px;
+  
+}
+#submit:hover {
+    background-color:#e394d1;
+}
+  
+

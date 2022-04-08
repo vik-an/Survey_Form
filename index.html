@@ -1,0 +1,105 @@
+<head>
+  <title> Survey form</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" 
+  href="style.css">
+</head>
+
+
+<body>
+<br>
+<h1 id="title"> freeCodeCamp Survey Form</h1>
+
+<p id="description"><em>Thank you for taking the time to help us improve the platform</em></p>
+ 
+ <div>
+     
+<form id="survey-form">
+  <label for="name" id="name-label">Name : 
+  <input  type="text" name="name" id="name" placeholder="enter your name" required ></label>
+
+  <label for="email" id="email-label">Email : 
+  <input id="email"  type="email" name="email" placeholder="enter your email" required ></label>
+
+  <label for="number" id="number-label">Age (optional) :
+  <input id="number"  name="number" type="number" min="1" max="98" placeholder="age" required ></label>
+    
+    
+<label for="curent-role" id="dropdown">Which option best describes your current role?</label>
+
+<select name="curent-role" id="dropdown" placeholder="select curent role">
+  <option value="" disabled selected>select curent role</option>
+  <option value="student">Student</option>
+  <option value="full-time-job">Full Time Job</option>
+  <option value="full-time-learner">Full Time Learner</option>
+  <option value="prefer-not-to-say">Prefer not to say</option>
+  <option value="other">Other</option>
+</select>
+
+  <p>Would you recommend freeCodeCamp to a friend?</p>
+<label for="definitely">
+  <input  id="definitely" value="definitely" type="radio" name="recommendations" >Definitely</input></label>
+
+<label for="maybe">
+  <input id="maybe" value="maybe" type="radio" name="recommendations">Maybe</input></label>
+
+<label for="not-sure">
+  <input id="not-sure" value="not-sure" type="radio" name="recommendations" style="margin-bottom:15px">Not sure</input></label> 
+  
+
+<label for="favorite-feature" id="dropdown">What is your favorite feature of freeCodeCamp?</label>
+
+<select  name="favorite-feature" id="dropdown" required>
+  <option value="" disabled selected>select an option</option>
+  <option value="challenges">Challenges</option>
+  <option value="projects">Projects</option>
+  <option value="community">Community</option>
+  <option value="open-source">Open Source</option>
+ 
+</select>
+
+
+
+<p >What would you like to see improved? (Check all that apply) </p>
+
+<label for="front-end">
+<input id="front-end" value="front-end" name="improvements" type="checkbox">Front-end Projects</input></label>
+
+  <label for="back-end">
+<input id="back-end" value="back-end" name="improvements" type="checkbox">Back-end Projects</input></label>
+
+ <label for="data-visualization">
+<input id="data-visualization" value="data-visualization" name="improvements" type="checkbox">Data Visualization</input></label>
+
+   <label for="challenges">
+<input id="challenges" value="challenges" name="improvements" type="checkbox">Challenges</input></label>
+
+     <label for="community">
+<input id="community" value="community" name="improvements"  type="checkbox">Open Source Community</label>
+
+   <label for="help-rooms">
+<input id="help-rooms" value="help-rooms" name="improvements" type="checkbox">Gitter help rooms</input></label>
+
+  <label for="videos">
+    <input id="videos" value="videos" name="improvements" type="checkbox">Videos</input></label>
+
+  <label for="meetups">
+    <input id="meetups" value="meetups" name="improvements" type="checkbox">City Meetups</input></label>
+
+  <label for="wiki">
+    <input id="wiki" value="wiki" name="improvements" type="checkbox">Wiki</input></label>
+
+<label for="forum">
+  <input id="forum" value="forum" name="improvements" type="checkbox">Forum</input></label>
+
+<label for="additional-courses">
+<input id="additional-courses" value="additional-courses" name="improvements" type="checkbox">Additional Courses</input></label>
+
+<p>Any comments or suggestions?</p>
+
+<textarea cols="95" name="comments" rows="5" placeholder="Your text here"></textarea>
+
+
+  <button type="submit" id="submit">Submit</button>
+</form></div>
+</body>
